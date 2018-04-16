@@ -1,0 +1,6 @@
+framework module Pods_Elena {
+  umbrella header "Pods-Elena-umbrella.h"
+
+  export *
+  module * { export * }
+}

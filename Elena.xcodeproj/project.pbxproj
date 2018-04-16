@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16DE107C4533714A9AC91412 /* Pods_Elena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6A61DC08A15A299E539F4C /* Pods_Elena.framework */; };
+		A4478CC32063931D00636339 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4478CC22063931C00636339 /* AVFoundation.framework */; };
+		A4478CD92068DA9C00636339 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4478CC82068DA9C00636339 /* HomeViewController.swift */; };
+		A4478CDA2068DA9C00636339 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4478CCA2068DA9C00636339 /* ChatModel.swift */; };
+		A4478CDB2068DA9C00636339 /* MineMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4478CCC2068DA9C00636339 /* MineMessageCell.swift */; };
+		A4478CDC2068DA9C00636339 /* OtherMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4478CCD2068DA9C00636339 /* OtherMessageCell.swift */; };
+		A4478CDD2068DA9C00636339 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4478CCF2068DA9C00636339 /* ChatViewModel.swift */; };
+		A4478CDE2068DA9C00636339 /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4478CD12068DA9C00636339 /* BaseTextField.swift */; };
+		A4478CDF2068DA9C00636339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4478CD32068DA9C00636339 /* AppDelegate.swift */; };
+		A4478CE02068DA9C00636339 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4478CD52068DA9C00636339 /* Common.swift */; };
+		A4478CE12068DA9C00636339 /* RecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4478CD62068DA9C00636339 /* RecordManager.swift */; };
+		A4478CE22068DA9C00636339 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4478CD82068DA9C00636339 /* UIColor+Extension.swift */; };
+		A4478CE82068E2F800636339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4478CE42068E2F800636339 /* Assets.xcassets */; };
+		A4478CE92068E2F800636339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4478CE52068E2F800636339 /* LaunchScreen.storyboard */; };
+		A4478CEC2068E3E000636339 /* SpeakManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4478CEB2068E3E000636339 /* SpeakManager.swift */; };
+		A4478D36206A249700636339 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4478D35206A249700636339 /* String+Extension.swift */; };
+		A4478D38206A2A7500636339 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4478D37206A2A7500636339 /* BaseNavigationController.swift */; };
+		A4478D5E206CED6C00636339 /* BaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4478D5D206CED6C00636339 /* BaseLabel.swift */; };
+		A4B91C992071D5AD0041EAE8 /* VoicePocket.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A4B91C982071D5AD0041EAE8 /* VoicePocket.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29318E56CCAB7BFD824225B6 /* Pods-Elena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elena.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Elena/Pods-Elena.debug.xcconfig"; sourceTree = "<group>"; };
+		A4478CC22063931C00636339 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A4478CC82068DA9C00636339 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A4478CCA2068DA9C00636339 /* ChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		A4478CCC2068DA9C00636339 /* MineMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineMessageCell.swift; sourceTree = "<group>"; };
+		A4478CCD2068DA9C00636339 /* OtherMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherMessageCell.swift; sourceTree = "<group>"; };
+		A4478CCF2068DA9C00636339 /* ChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		A4478CD12068DA9C00636339 /* BaseTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		A4478CD32068DA9C00636339 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4478CD52068DA9C00636339 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		A4478CD62068DA9C00636339 /* RecordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordManager.swift; sourceTree = "<group>"; };
+		A4478CD82068DA9C00636339 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A4478CE42068E2F800636339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4478CE62068E2F800636339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4478CE72068E2F800636339 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4478CEB2068E3E000636339 /* SpeakManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakManager.swift; sourceTree = "<group>"; };
+		A4478D35206A249700636339 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		A4478D37206A2A7500636339 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		A4478D5D206CED6C00636339 /* BaseLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabel.swift; sourceTree = "<group>"; };
+		A4B91C982071D5AD0041EAE8 /* VoicePocket.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VoicePocket.bundle; sourceTree = "<group>"; };
+		A4FF20452061F12700BA8335 /* Elena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6D32D717C077345BD0FCAE /* Pods-Elena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elena.release.xcconfig"; path = "Pods/Target Support Files/Pods-Elena/Pods-Elena.release.xcconfig"; sourceTree = "<group>"; };
+		EF6A61DC08A15A299E539F4C /* Pods_Elena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4FF20422061F12700BA8335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4478CC32063931D00636339 /* AVFoundation.framework in Frameworks */,
+				16DE107C4533714A9AC91412 /* Pods_Elena.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0817C37C1CB47DC1B9C8C6E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29318E56CCAB7BFD824225B6 /* Pods-Elena.debug.xcconfig */,
+				DC6D32D717C077345BD0FCAE /* Pods-Elena.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9960B3C218346D624A026CCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4478CC22063931C00636339 /* AVFoundation.framework */,
+				EF6A61DC08A15A299E539F4C /* Pods_Elena.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4478CC62068DA9C00636339 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A4478CC72068DA9C00636339 /* controller */,
+				A4478CC92068DA9C00636339 /* Model */,
+				A4478CCB2068DA9C00636339 /* View */,
+				A4478CCE2068DA9C00636339 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A4478CC72068DA9C00636339 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4478CC82068DA9C00636339 /* HomeViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A4478CC92068DA9C00636339 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4478CCA2068DA9C00636339 /* ChatModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4478CCB2068DA9C00636339 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4478CCC2068DA9C00636339 /* MineMessageCell.swift */,
+				A4478CCD2068DA9C00636339 /* OtherMessageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4478CCE2068DA9C00636339 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4478CCF2068DA9C00636339 /* ChatViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4478CD02068DA9C00636339 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A4478CD12068DA9C00636339 /* BaseTextField.swift */,
+				A4478D37206A2A7500636339 /* BaseNavigationController.swift */,
+				A4478D5D206CED6C00636339 /* BaseLabel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A4478CD22068DA9C00636339 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A4478CD32068DA9C00636339 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A4478CD42068DA9C00636339 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A4478CD52068DA9C00636339 /* Common.swift */,
+				A4478CD62068DA9C00636339 /* RecordManager.swift */,
+				A4478CEB2068E3E000636339 /* SpeakManager.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A4478CD72068DA9C00636339 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A4478CD82068DA9C00636339 /* UIColor+Extension.swift */,
+				A4478D35206A249700636339 /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A4478CE32068E2F800636339 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A4478CE42068E2F800636339 /* Assets.xcassets */,
+				A4478CE52068E2F800636339 /* LaunchScreen.storyboard */,
+				A4478CE72068E2F800636339 /* Info.plist */,
+				A4B91C982071D5AD0041EAE8 /* VoicePocket.bundle */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A4FF203C2061F12700BA8335 = {
+			isa = PBXGroup;
+			children = (
+				A4FF20472061F12700BA8335 /* Elena */,
+				A4FF20462061F12700BA8335 /* Products */,
+				0817C37C1CB47DC1B9C8C6E9 /* Pods */,
+				9960B3C218346D624A026CCE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4FF20462061F12700BA8335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FF20452061F12700BA8335 /* Elena.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4FF20472061F12700BA8335 /* Elena */ = {
+			isa = PBXGroup;
+			children = (
+				A4478CD22068DA9C00636339 /* App */,
+				A4478CD02068DA9C00636339 /* Base */,
+				A4478CD72068DA9C00636339 /* Extension */,
+				A4478CC62068DA9C00636339 /* Home */,
+				A4478CD42068DA9C00636339 /* Tools */,
+				A4478CE32068E2F800636339 /* Other */,
+			);
+			path = Elena;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4FF20442061F12700BA8335 /* Elena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FF20572061F12700BA8335 /* Build configuration list for PBXNativeTarget "Elena" */;
+			buildPhases = (
+				097D69B49BA06B447EE6195E /* [CP] Check Pods Manifest.lock */,
+				A4FF20412061F12700BA8335 /* Sources */,
+				A4FF20422061F12700BA8335 /* Frameworks */,
+				A4FF20432061F12700BA8335 /* Resources */,
+				6B8322789011FB86B510F407 /* [CP] Embed Pods Frameworks */,
+				F2377DFB030C061494966326 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elena;
+			productName = Elena;
+			productReference = A4FF20452061F12700BA8335 /* Elena.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4FF203D2061F12700BA8335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Cain;
+				TargetAttributes = {
+					A4FF20442061F12700BA8335 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4FF20402061F12700BA8335 /* Build configuration list for PBXProject "Elena" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4FF203C2061F12700BA8335;
+			productRefGroup = A4FF20462061F12700BA8335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4FF20442061F12700BA8335 /* Elena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4FF20432061F12700BA8335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4478CE92068E2F800636339 /* LaunchScreen.storyboard in Resources */,
+				A4478CE82068E2F800636339 /* Assets.xcassets in Resources */,
+				A4B91C992071D5AD0041EAE8 /* VoicePocket.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		097D69B49BA06B447EE6195E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B8322789011FB86B510F407 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elena/Pods-Elena-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2377DFB030C061494966326 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elena/Pods-Elena-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FF20412061F12700BA8335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4478D38206A2A7500636339 /* BaseNavigationController.swift in Sources */,
+				A4478D5E206CED6C00636339 /* BaseLabel.swift in Sources */,
+				A4478CDC2068DA9C00636339 /* OtherMessageCell.swift in Sources */,
+				A4478CDB2068DA9C00636339 /* MineMessageCell.swift in Sources */,
+				A4478CDE2068DA9C00636339 /* BaseTextField.swift in Sources */,
+				A4478CE02068DA9C00636339 /* Common.swift in Sources */,
+				A4478D36206A249700636339 /* String+Extension.swift in Sources */,
+				A4478CEC2068E3E000636339 /* SpeakManager.swift in Sources */,
+				A4478CE12068DA9C00636339 /* RecordManager.swift in Sources */,
+				A4478CD92068DA9C00636339 /* HomeViewController.swift in Sources */,
+				A4478CDD2068DA9C00636339 /* ChatViewModel.swift in Sources */,
+				A4478CDF2068DA9C00636339 /* AppDelegate.swift in Sources */,
+				A4478CDA2068DA9C00636339 /* ChatModel.swift in Sources */,
+				A4478CE22068DA9C00636339 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4478CE52068E2F800636339 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4478CE62068E2F800636339 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4FF20552061F12700BA8335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4FF20562061F12700BA8335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4FF20582061F12700BA8335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29318E56CCAB7BFD824225B6 /* Pods-Elena.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RAUNQ6K9F;
+				INFOPLIST_FILE = Elena/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldian.Elena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4FF20592061F12700BA8335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC6D32D717C077345BD0FCAE /* Pods-Elena.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RAUNQ6K9F;
+				INFOPLIST_FILE = Elena/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldian.Elena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4FF20402061F12700BA8335 /* Build configuration list for PBXProject "Elena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FF20552061F12700BA8335 /* Debug */,
+				A4FF20562061F12700BA8335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FF20572061F12700BA8335 /* Build configuration list for PBXNativeTarget "Elena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FF20582061F12700BA8335 /* Debug */,
+				A4FF20592061F12700BA8335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4FF203D2061F12700BA8335 /* Project object */;
+}
